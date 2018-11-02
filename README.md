@@ -14,6 +14,8 @@
 
 #### Cleaning and Exploration of Data
 
+   A brief visual exploration of the mosquito trap collection is on the Tableau public website [here](https://public.tableau.com/profile/romand.tse#!/vizhome/mosquitosvstimebyweek/Sheet1).
+   
    Light cleaning was necessary for the weather data.  When values were missing from either weather station, the value was taken from the other station.  While this decision defeats the purpose of differentiating between the weather stations, the hope was that this might account for outlier days with abnormal weather, which would be ignored if we simply tried to fill values forward, for instance.  There were only a few of these missing values to begin with, so the accuracy of our model could not have changed by much, no matter what our decision here.
 
 #### Pre-processing of Data in advance of Modeling
